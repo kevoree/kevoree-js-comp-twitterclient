@@ -1,0 +1,31 @@
+{
+  "name": "kevoree-comp-twitterclient",
+  "version": "1.0.0",
+  "description": "Generate a stream of tweets filtered by users and by keywords",
+  "main": "./lib/TwitterClient.js",
+  "kevoree": {
+    "package": "org.kevoree.library"
+  },
+  "scripts": {
+    "prepublish": "grunt build",
+    "postpublish": "grunt publish"
+  },
+  "keywords": [
+    "kevoree-std-lib",
+    "kevoree",
+    "library",
+    "comp"
+  ],
+  "dependencies": {
+    "kevoree-entities": "^8.0.0",
+    "twitter": "^1.3.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.1",
+    "grunt-kevoree": "^5.0.0",
+    "grunt-kevoree-genmodel": "^2.0.0",
+    "grunt-kevoree-registry": "^2.0.0"
+  },
+  "license": "MIT",
+  "author": "Manuel Leduc"
+}
